@@ -16,7 +16,7 @@
     <h2>Projects</h2>
     <div class="project-grid">
       <div class="project-card">
-        <img src="project 1" alt="Project 1">
+        <img src="project 1.PNG" alt="Project 1">
         <h3>Etisalat Dashboard</h3>
         <p>Etisalat Regression Dashboard analyzing the efficiency of companies. The findings revealed that factors such as service quality, pricing, and customer experience play a crucial role in customers' decisions to stay or leave. Based on these insights, suggestions were made to enhance performance efficiency and improve customer retention rates.</p>
         <video width="320" height="240" controls>
@@ -51,88 +51,3 @@
   </footer>
 </body>
 </html>
-/* Reset */
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-  background-color: #101010;
-  color: #fff;
-}
-
-header {
-  text-align: center;
-  padding: 4rem 2rem;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-}
-
-header h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-}
-
-header p {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-header .btn {
-  padding: 0.8rem 2rem;
-  background: #ff6f61;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.3s;
-}
-
-header .btn:hover {
-  background: #ff4a34;
-}
-
-#projects {
-  padding: 4rem 2rem;
-}
-
-#projects h2 {
-  text-align: center;
-  margin-bottom: 2rem;
-  color: #ff6f61;
-}
-
-.project-grid {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.project-card {
-  background: #2c5364;
-  padding: 1rem;
-  border-radius: 10px;
-  text-align: center;
-  width: 300px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.project-card img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
-
-.project-card h3 {
-  margin-bottom: 0.5rem;
-}
-
-.project-card a {
-  color: #ff6f61;
-  text-decoration: none;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #0f2027;
-}
